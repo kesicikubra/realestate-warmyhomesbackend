@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "real-estate-415918",
+  "private_key_id": "9769f49385545f77d941ad85bc0f24bc345c7db5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6bpALl+YGpF4O\nYt47IqDZyfg+1gmkV7ZKaiw3uoS2VMg5qaGb8u0pY4iRbIMbdgJ/Dv85OzoIXIgO\nL/lS/YKO9B+TBQVU22Wm5R2aEjsjJxJ8qx1AT4SRQBJV1tkw7BT0ufJpvFqbVSJH\n9BtdgyxMB600yjO8lTxwW0dnpSQu+MdDhquuB9QePpJuXUp0BVgoyoFMZPvz1cVy\nCK4prtkk++yM77dwBW6psqUawu89FoCYKF2aVr/UOeArlnzQW+M+CmUpbevH2QTI\ncjF8DGZXIJ05rpMGquZ+17C3K2bPNLYdl4pITCSjgHfyPrPZOTTNI8cP6EbFTKRw\nJCpbOXrHAgMBAAECggEAAtSvFunJF4jGS/tjDP1XvG/+D4fotf/nnrdn2oYzxN12\nRSLT2OCFiqezjzAEBhk412LqdQrMHIY/ixmzbkD0F0oGSDv+7OUw/TXVc6+2j9TF\n+nIzwQzgPZrBPUefwaM/Gn+3dC7APuH9Nw2sDJtIsR7yJeLXcaY1OIPQx3yDVE4v\nYQkZ/+n4xNX1n51i3tR7cg3nl6VZecmmHU9Ek80w/SLb/J3Nfe3D1wkA/dapKC4D\nQs5OdgqaYqWCvZQR7/FLImkBrlL3dVkc9KhZnvnYZAezi0CwZE2lrsm+4DBLkq/8\nuQClG91n/SdBWuzzu5TyjEx5DBEo6Lcbi4eDuYqMRQKBgQDpKQr5fMS4lzeUNacU\nNLiTkJHNN+eM7orW+E92MdHapIbFk6LIg59SO0yAje6D+7i7YU39JJFj7E9QRoYk\nWsmB5zoPU/yRpLnLFsYNXQKcZ739bgqkG6V4/fv1429TEWPcihh2jwuOBu4yF2/f\nHiqdb4ZIsZIJrDKXzLELkKGc/QKBgQDMsbYtCL1OUUzWEH3bvFPIqiCGy9Fld4f5\nrUD/wiTiN6gWfb/cqPTQDA6oHy5pHaZcwo/vzYV/ssCY41eoDVkwPJSROUgAjLT/\npmWi8awCsrqWKpTNw8FTcf+w8h7QeTxO0evLReTN1sChvxefzQGb/PL3duNnmIM0\nwnbbzghkEwKBgB1i8uMm+pRZWsPvTzOYwXq3yeiXlzOIDS+y9DDtbomkGuhkByxG\nipoOp0G8occ4vru/M9kn9rslWYnAmb+TQbqBriuoZjjlDhWutR+SDXYxDR0X9Xdh\nlKV/PXZsR+esVW3CafrnZIluDi96DLuOTcix+bbHyqQ1c9r2DYprnDLxAoGALjtN\nHCrHJvMx2X9sDb8hZUcXhZpvNu2iZn/9GEbvMbDEZCAOv3XhpUOz48D3KIKr2nOP\nMuhGaKsk2OMwHyK0rDJik9JOMuGU19DrT7wpz4oynkwLw9Wcyo4K5BorX4aiWmML\nUKP+o4cHhwC0A0G4RVUCQ2Y0wmct6zKoychlGMUCgYBtmEPA673zfEEdXxFR9qbs\n4vrOjoM0HLfOySUII6rpLQlAWXwy1EVQxqcjB+z2lZ37YfjIFBEAMII4o/vhUITH\nuc7dWiXFG3G37uJwBZhIbJQj29n44KD4yR7Zz5pXXlq5cPX4k/DgugNHsD0nTV1y\nihG5rf42ctpsAsxf+iqjEA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "emlakhesabi@real-estate-415918.iam.gserviceaccount.com",
+  "client_id": "101311072485817067453",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/emlakhesabi%40real-estate-415918.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

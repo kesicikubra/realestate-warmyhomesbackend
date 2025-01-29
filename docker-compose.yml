@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  first_app:
+    container_name: first-app-container
+    build:
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/realestateDB
+      SPRING_DATASOURCE_USERNAME: db_user
+      SPRING_DATASOURCE_PASSWORD: db_password
+      SPRING_REDIS_HOST: redis
+      SPRING_REDIS_PORT: 6379
+      SPRING_REDIS_PASSWORD: warehouse
+    links:
+      - postgres
+      - redis
+    networks:
+      - my_network
+
+  postgres:
+    container_name: first-db-container
+    image: "postgres:15"
+    restart: always
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_DB: realestateDB
+      POSTGRES_USER: db_user
+      POSTGRES_PASSWORD: db_password
+    volumes:
+      - pg_data:/var/lib/postgresql/data # PostgreSQL data directory
+    networks:
+      - my_network
+
+  redis:
+    container_name: first-redis-db
+    image: "redis:latest"
+    restart: always
+    ports:
+      - "6379:6379"
+    environment:
+      REDIS_PASSWORD: warehouse
+    volumes:
+      - redis_data:/data
+    networks:
+      - my_network
+
+volumes:
+  pg_data:
+  redis_data:
+
+networks:
+  my_network:

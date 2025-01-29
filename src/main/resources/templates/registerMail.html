@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify your account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .header {
+            text-align: center;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .message {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .code {
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #f7f7f7;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px auto;
+        }
+
+        .button {
+            font-family: 'Montserrat',serif;
+            font-weight: bold;
+            border: none;
+            background-image: linear-gradient(#f82141, #ecb507);
+            color: #ffffff;
+            padding: 0.5rem 1.2rem;
+            font-size: 1.05rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            margin: 0.5rem;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #1bb300;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a href="https://warmy-homes.vercel.app/"><img src="https://i.ibb.co/zsQwN9g/logo.png" alt="logo"></a>
+        <h1 class="title">Verify your account</h1>
+    </div>
+    <div class="content">
+        <p class="message">Dear {{First Name}},</p>
+        <p class="message">Please click on the below link to activate your account.</p>
+<!--        <p class="code" >{{code}}</p>-->
+        <a href="{{code}}" class="button">Verify Account</a>
+        <p class="message">For the security of your account, avoid sharing this link with others.<br/>
+
+            Please note that if you do not activate your account, you may not have access to certain features.<br/>
+
+            This verification link is available for 24 hours.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Your Password</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .header {
+            text-align: center;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .message {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .code {
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #f7f7f7;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 20px auto;
+        }
+
+        .button a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #000;
+            border: 1px solid #000;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <a href="https://warmy-homes.vercel.app/"><img src="https://i.ibb.co/zsQwN9g/logo.png" alt="logo"></a>
+        <h1 class="title">{{Reset Password Email Header Title}}</h1>
+    </div>
+    <div class="content">
+        <p class="message">{{Email Content Greeting}} {{First Name}},</p>
+        <p class="message">{{Reset Password Content}}</p>
+        <p class="code">{{code}}</p>
+        <p class="message">{{Code Content}}</p>
+        <p>{{Email Content Signature}},<br>Warmy Homes</p>
+    </div>
+</div>
+</body>
+</html>
